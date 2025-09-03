@@ -14,9 +14,6 @@ authors = [
 ]
 keywords = ["quart", "i18n", "internationalization", "localization", "translation"]
 classifiers = [
-    "Development Status :: 3 - Beta",
-    "Framework :: AsyncIO",
-    "Framework :: Quart",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",

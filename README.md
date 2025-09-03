@@ -1,9 +1,10 @@
 
 # Quart i18n
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![PyPI - Downloads](https://img.shields.io/pypi/dm/quart-i18n) [![PyPI version](https://badge.fury.io/py/quart-i18n.svg)](https://badge.fury.io/py/quart-i18n)
 
-`quart-i18n` is a simple and easy-to-use **internationalization (i18n) extension** for [Quart](https://pgjones.gitlab.io/quart/) web applications. It allows you to manage multilingual content and inject localized strings directly into templates.
+
+`quart-i18n` is a simple and easy-to-use **internationalization (i18n) extension** for [Quart](https://github.com/pallets/quart) web applications. It allows you to manage multilingual content and inject localized strings directly into templates.
 
 ---
 
@@ -117,7 +118,7 @@ The package includes several custom exceptions:
 ### Dynamic String Formatting
 
 ```python
-await i18n.render_template("index.html", displayname="Alice")
+await i18n.render_template("index.html", username="Alice")
 ```
 
 If `displayname` is not present in the JSON, SafeDict ensures no error is raised; the placeholder `{displayname}` remains in the template.
@@ -134,4 +135,4 @@ MIT License © 2025 [Bali](mailto:info@1bali1.hu)
 
 * [GitHub repository](https://github.com/1bali1/quart-i18n)
 * [PyPI](https://pypi.org/project/quart-i18n)
-* [Quart documentation](https://pgjones.gitlab.io/quart/)
+* [Quart documentation](https://github.com/pallets/quart)
